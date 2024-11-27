@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Chainscout',
-  description: 'Explorer for Blockscout instances',
+  title: 'Teemosearch',
+  description: 'Explorer for Teemosearch instances',
   icons: [
     { rel: 'icon', url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     { rel: 'apple-touch-icon', url: '/favicon-256x256.png' },

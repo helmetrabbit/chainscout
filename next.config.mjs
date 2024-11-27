@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      'uploads-ssl.webflow.com',
-      'cdn.prod.website-files.com',
+    remotePatterns: [
+    {hostname:  'uploads-ssl.webflow.com'},
+    {hostname:  'cdn.prod.website-files.com'},
     ],
   },
   webpack(config) {
